@@ -1,0 +1,87 @@
+body{
+    font-family: 'Chilanka', cursive;
+}
+
+.header-site{
+    background:url(img/marioandbowser.jpg);
+    background-size:cover;
+    background-position:center center;
+    height:60vh;
+    color:white;
+    border-bottom:20px solid black;
+    font-size:30px;
+}
+
+h1{
+    background:rgba(0,0,0,.7);
+    border-radius: 10px;
+}
+.header-site .wrap{
+    padding:40px;
+    text-align:center;
+}
+
+
+
+.wrap-main{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.square{
+    background:rgba(130,130,130,0.4);
+    height:300px;
+    flex-basis:40%;;
+    margin:10px;
+    padding:10px;
+    border-radius: 8px;
+    border:1px solid black;
+    text-align: center;
+}
+
+.mario{
+    background:url(img/mariobackground.png);
+    background-size:cover;
+    color:white;
+    font-weight: bold;
+    
+}
+
+.bowser{
+    background:url(img/bowserbackground2.jpg);
+    background-size:cover;
+    color:white;
+    font-weight: bold;
+}
+.img-c{
+    width:100px;
+}
+
+.btn{
+    background:#d70303;
+    width:100px;
+    font-size:20px;
+    color: white;
+}
+
+.btn-newgame{
+    background:#11660e;
+    font-size:20px;
+    color: white;
+}
+
+.console{
+    background:white;
+    border:1px solid black;
+    height:200px;
+    width:600px;
+    border-radius: 5px;
+    justify-content: center;
+    margin:auto;
+
+}
+
+.item{
+    width:100px;
+}

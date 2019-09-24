@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Videogame</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-site">
+        <div class="wrap">
+                <h1>Welcome to Attack Video Game</h1>
+        </div>
+        
+
+    </header>
+
+    <main>
+        <div class="wrap-main">
+
+            <div class="square mario">
+                <img class="img-c" src="img/mario.png" alt="Mario">
+                <br>
+                <div id="c1">
+
+                </div>
+                <button class="btn" onclick="c1.attack(c2,selectItem());">
+                    Attack
+                </button>
+
+            </div>
+
+            <div class="square bowser">
+                <img class="img-c" src="img/bowser.png" alt="Bowser">
+                <br>
+                <div id="c2">
+
+                </div>
+                <button class="btn" onclick="c2.attack(c1,selectItem());">
+                    Attack
+                </button>
+
+            </div>
+        </div>
+
+        <div class="console" id="console">
+
+        </div>
+
+        <div class="wrap-main">
+            <button class="btn-newgame" onclick="NewGame();">NewGame</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
